@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="test.css">
+	<title></title>
+</head>
+<body>
+	<form class="register">
+		<div class="kotak1">
+			<div class="isikotak">
+				<a id="sign-in" href="sign.html">Sign In</a>
+				<a class="selected" href="test1.html">Register</a>
+			</div>
+			<div class="isikotak1">
+				<h3>Register</h3>
+				<h5>FULL NAME</h5>
+				<input type="text" name="fullname" placeholder="Enter Your Full Name" size="60px">
+				<h5>EMAIL</h5>
+				<input type="Email" name="email" placeholder="Enter Your Email" size="60px">
+				<h5>PASSWORD</h5>
+				<input type="Password" name="Password" placeholder="Enter  Your Password" size="60px"><br>
+				<input type="checkbox" name="checkbox" class="checkbox">
+				<h5 class="agreement">I Agree To Term and Condition</h5>
+				<button class="submit">Register</button>
+			</div>
+		</div>
+		<div class="kotak2">
+			<img src="saxo2.png" class="backimage">
+			<p class="getkonek">Get Connected With</p>
+			<hr width="250px" height="1px">
+			<a href="https://id-id.facebook.com/" >
+				<li class="facebook">
+					<img src="fb.png" width="40px" height="40px">
+				</li>
+			</a>
+			<a href="https://www.instagram.com/?hl=id">
+				<li class="instagram">
+					<img src="ig.png" width="55px" height="55px">
+				</li>
+			</a>
+			<a href="https://workspace.google.com/">
+				<li class="google">
+					<img src="g+.png" width="30px" height="30px">
+				</li>
+			</a>			
+		</div>
+	</form>
+</body>
+</html>
