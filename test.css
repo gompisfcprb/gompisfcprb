@@ -1,0 +1,150 @@
+body	{
+	background-image: linear-gradient(270deg,#616161,#7e7e7e,#AAAAAA,#C1C1C1);
+	 font-family: 'Josefin Sans';
+}
+a {
+	text-decoration: none;
+	font-weight: bolder;
+	font-size: 16px;
+	color: black;
+}
+a:hover	{
+	font-size: 16px;
+	color: darkgrey;
+}
+.isikotak {
+	padding-top: 8px;
+}
+.selected{
+	font-size: 16px;
+	margin-left: 5px;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+.isikotak .selected,
+.isikotak .selected a:focus	{
+	background-color: black;
+	color: whitesmoke;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+#sign-in	{
+	margin-left: 300px;
+}
+
+.kotak1	{
+	margin-top: 20px;
+	margin-left: 750px;
+	background-color: white;
+	width: 500px;
+	height: 700px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+h2	{
+	text-align: center;
+	padding-left: 20px;
+	padding-top: 50px;
+}
+
+h3	{
+	font-size: 25px;
+	margin-top: 80px;
+	padding-left: 30px;
+}
+h5 {
+	color: darkgrey;
+	margin-left: 30px;
+}
+.agreement	{
+	margin-top: -16px;
+	padding-left: 20px;
+}
+
+input	{
+	margin-left: 30px;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	font-family: "Josefin Sans";
+}
+input.placeholder {
+	color: darkred;
+}
+input:focus {
+	outline: none;
+}
+button	{
+	font-family: "Josefin Sans";
+}
+button:hover	{
+	background-color: white;
+	color: black;
+} 
+
+.checkbox {
+	margin-top: 30px;
+}
+
+.submit	{
+	margin-bottom: 10px;
+	margin-top: 20px;
+	margin-left: 120px;
+	padding-left: 90px;
+	padding-right: 90px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	background-color: black;
+	color: white;
+	border-radius: 20px;
+}
+.submit1	{
+	margin-bottom: 10px;
+	margin-top: 50px;
+	margin-left: 120px;
+	padding-left: 90px;
+	padding-right: 90px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	background-color: black;
+	color: white;
+	border-radius: 20px;
+}
+
+.kotak2	{
+	margin-top: -700px;
+	margin-left: 250px;
+	background-color: black;
+	width: 500px;
+	height: 700px;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+}
+.backimage {
+	margin-top: 100px;
+	margin-left: 100px;
+	height: 400px;
+}
+.getkonek	{
+	color: white;
+	text-align: center;
+}
+.garis	{
+	color: white;
+}
+li {
+	list-style: none;
+}
+.facebook	{
+	margin-left: 180px;
+}
+.instagram	{
+	margin-top: -50px;
+	margin-left: 220px;
+}
+.google	{
+	margin-top: -46px;
+	margin-left: 280px;
+}
